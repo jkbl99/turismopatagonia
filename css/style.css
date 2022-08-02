@@ -83,8 +83,8 @@ main {
 
 .publis{
   display: grid;
-  grid-template-columns: 450px 450px;
-  width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
   column-gap: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -121,8 +121,8 @@ main {
 
 .publisd{
   display: grid;
-  grid-template-columns: 450px 450px;
-  width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
   column-gap: 70px;
   margin: auto;
   grid-template-areas: 'titulod titulod'
@@ -207,3 +207,37 @@ footer small {
   display: block;
 }
 /* Form contact */
+
+@media (max-width: 720px){
+  .publis{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    column-gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: 'titulo'
+                        'publi1'
+                        'publi2'
+                        'publi3'
+                        'publi4'
+  }
+  .publisd{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    column-gap: 70px;
+    margin: auto;
+    grid-template-areas: 'titulod'
+                        'publi1d'
+                        'publi2d'
+                        'publi3d'
+                        'publi4d'
+                        'publi5d'
+                        'publi6d'
+  }
+  .mapa{
+    display: flex;
+    width: auto;
+  }
+}
