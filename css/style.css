@@ -71,12 +71,24 @@ nav ul li {
   display: inline-block;
 }
 
+/* transicion hover */
+
+.botonbuscar{
+  width: auto;
+  transition: width 2s;
+}
+
+.botonbuscar:hover{
+  width: 100px;
+}
+
 /* Fin Header */
 
 /* Main */
 
 main {
-  background-color: beige;
+  /* background-color: beige; */
+  background-image: linear-gradient(to right, #22c1c3 0%, #fdbb2d 100%);
   font-family: "Roboto", sans-serif;
   padding: 10px;
 }
