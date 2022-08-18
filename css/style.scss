@@ -1,0 +1,191 @@
+$colordefondo: burlywood;
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: $colordefondo;
+  padding: 10px;
+  form {
+    padding: 5px;
+    flex: 1;
+  }
+}
+.head1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  > div {
+    flex: 1;
+  }
+  h1 {
+    justify-content: center;
+  }
+}
+.header-img {
+  padding: 5px;
+  flex: 1;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex: 1;
+}
+nav {
+  ul {
+    li {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+    }
+  }
+}
+.navegacion {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  li {
+    display: inline-block;
+  }
+}
+.botonbuscar {
+  width: auto;
+  transition: width 2s;
+  &:hover {
+    width: 100px;
+  }
+}
+main {
+  background-image: linear-gradient(to right, #22c1c3 0%, #fdbb2d 100%);
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.publis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  column-gap: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-areas: "titulo titulo" 
+                        "publi1 publi2" 
+                        "publi3 publi4";
+}
+.titpub {
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+}
+.publi1 {
+  grid-area: publi1;
+}
+.publi2 {
+  grid-area: publi2;
+}
+.publi3 {
+  grid-area: publi3;
+}
+.publi4 {
+  grid-area: publi4;
+}
+.publisd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  column-gap: 70px;
+  margin: auto;
+  grid-template-areas: "titulod titulod" 
+                        "publi1d publi2d" 
+                        "publi3d publi4d" 
+                        "publi5d publi6d";
+}
+.titpubd {
+  grid-area: titulod;
+  display: flex;
+  justify-content: center;
+}
+.publi1d {
+  grid-area: publi1d;
+}
+.publi2d {
+  grid-area: publi2d;
+}
+.publi3d {
+  grid-area: publi3d;
+}
+.publi4d {
+  grid-area: publi4d;
+}
+.publi5d {
+  grid-area: publi5d;
+}
+.publi6d {
+  grid-area: publi6d;
+}
+footer {
+  background-color: $colordefondo;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  small {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.foot1 {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  img {
+    padding: 5px;
+  }
+  span {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+.navbot {
+  width: 200px;
+}
+@media (max-width: 720px) {
+  .publis {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    column-gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: "titulo" "publi1" "publi2" "publi3" "publi4";
+  }
+  .publisd {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    column-gap: 70px;
+    margin: auto;
+    grid-template-areas: "titulod" "publi1d" "publi2d" "publi3d" "publi4d" "publi5d" "publi6d";
+  }
+  .mapa {
+    display: flex;
+    width: auto;
+  }
+}
