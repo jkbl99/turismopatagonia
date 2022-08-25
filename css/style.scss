@@ -1,17 +1,18 @@
 $colordefondo: burlywood;
+@mixin reseteo {
+  padding: 0;
+  margin: 0;
+}
 
 html {
-  padding: 0;
-  margin: 0;
+  @include reseteo
 }
 body {
-  padding: 0;
-  margin: 0;
+  @include reseteo
 }
 ul {
+  @include reseteo;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 * {
   box-sizing: border-box;
