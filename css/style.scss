@@ -191,3 +191,41 @@ footer {
     width: auto;
   }
 }
+
+.stickyicon-list {   
+  position: fixed;   
+  top: 400px;   
+  transform: translateY(-50%);             
+  }         
+  .stickyicon-list a {   
+  display: block;   
+  text-align: center;   
+  padding: 8px;   
+  transition: all 0.5s ease;   
+  color: white;   
+  font-size: 20px;   
+  }         
+  .stickyicon-list a:hover {   
+  color: #000;   
+  width:20px;   
+  }   
+  .facebook {   
+  background: #3b5998;   
+  color: white;  
+  }         
+  .twitter {   
+  color: white;   
+  background: #00acee;   
+  }         
+  .google {   
+  color: white;   
+  background: #db4a39;   
+  }   
+  .instagram {   
+  background: #3f729b;   
+  color: white;   
+  }     
+  
+  .maint{
+    margin: 40px;
+  }
