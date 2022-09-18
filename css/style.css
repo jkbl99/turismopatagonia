@@ -180,11 +180,6 @@ footer small {
   justify-content: center;
 }
 
-.navbot {
-  flex: 1;
-  width: 200px;
-}
-
 @media (max-width: 720px) {
   .publis {
     display: grid;
