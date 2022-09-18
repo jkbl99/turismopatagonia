@@ -71,7 +71,7 @@ main {
   column-gap: 70px;
   margin-left: auto;
   margin-right: auto;
-  grid-template-areas: "titulo titulo"  "publi1 publi2"  "publi3 publi4"; }
+  grid-template-areas: "titulo titulo"  "publi1 publi2"; }
 
 .titpub {
   grid-area: titulo;
@@ -96,7 +96,7 @@ main {
   width: auto;
   column-gap: 70px;
   margin: auto;
-  grid-template-areas: "titulod titulod"  "publi1d publi2d"  "publi3d publi4d"  "publi5d publi6d"; }
+  grid-template-areas: "titulod titulod"  "publi1d publi2d"  "publi3d publi4d"  "publi5d publi6d" "publi7d publi8d" "publi9d publi10d"; }
 
 .titpubd {
   grid-area: titulod;
@@ -156,7 +156,7 @@ footer {
     column-gap: 70px;
     margin-left: auto;
     margin-right: auto;
-    grid-template-areas: "titulo" "publi1" "publi2" "publi3" "publi4"; }
+    grid-template-areas: "titulo" "publi1" "publi2"; }
   .publisd {
     display: grid;
     grid-template-columns: 1fr;
