@@ -5,10 +5,10 @@ $colordefondo: burlywood;
 }
 
 html {
-  @include reseteo
+  @include reseteo;
 }
 body {
-  @include reseteo
+  @include reseteo;
 }
 ul {
   @include reseteo;
@@ -83,8 +83,9 @@ main {
   column-gap: 70px;
   margin-left: auto;
   margin-right: auto;
-  grid-template-areas: "titulo titulo" 
-                        "publi1 publi2";
+  grid-template-areas:
+    "titulo titulo"
+    "publi1 publi2";
 }
 .titpub {
   grid-area: titulo;
@@ -104,12 +105,13 @@ main {
   width: auto;
   column-gap: 70px;
   margin: auto;
-  grid-template-areas: "titulod titulod" 
-                        "publi1d publi2d" 
-                        "publi3d publi4d" 
-                        "publi5d publi6d"
-                        "publi7d publi8d"
-                        "publi9d publi10d";
+  grid-template-areas:
+    "titulod titulod"
+    "publi1d publi2d"
+    "publi3d publi4d"
+    "publi5d publi6d"
+    "publi7d publi8d"
+    "publi9d publi10d";
 }
 .titpubd {
   grid-area: titulod;
@@ -188,45 +190,45 @@ footer {
   }
 }
 
-.stickyicon-list {   
-  position: fixed;   
-  top: 400px;   
-  transform: translateY(-50%);             
-  }         
-  .stickyicon-list a {   
-  display: block;   
-  text-align: center;   
-  padding: 8px;   
-  transition: all 0.5s ease;   
-  color: white;   
-  font-size: 20px;   
-  }         
-  .stickyicon-list a:hover {   
-  color: #000;   
-  width:20px;   
-  }   
-  .facebook {   
-  background: #3b5998;   
-  color: white;  
-  }         
-  .twitter {   
-  color: white;   
-  background: #00acee;   
-  }         
-  .google {   
-  color: white;   
-  background: #db4a39;   
-  }   
-  .instagram {   
-  background: #3f729b;   
-  color: white;   
-  }     
-  
-  .maint{
-    margin: 40px;
-  }
+.stickyicon-list {
+  position: fixed;
+  top: 400px;
+  transform: translateY(-50%);
+}
+.stickyicon-list a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 20px;
+}
+.stickyicon-list a:hover {
+  color: #000;
+  width: 20px;
+}
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+.twitter {
+  color: white;
+  background: #00acee;
+}
+.google {
+  color: white;
+  background: #db4a39;
+}
+.instagram {
+  background: #3f729b;
+  color: white;
+}
 
-  .contactt{
-    list-style: none;
-    width: 50%;
-  }
+.maint {
+  margin: 40px;
+}
+
+.contactt {
+  list-style: none;
+  width: 50%;
+}
