@@ -94,9 +94,17 @@ main {
 }
 .publi1 {
   grid-area: publi1;
+  h3, p,.img1{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi2 {
   grid-area: publi2;
+  h3, p,.img2{
+    text-align: center;
+    padding: 5px;
+  }
 }
 
 .publisd {
@@ -120,22 +128,79 @@ main {
 }
 .publi1d {
   grid-area: publi1d;
+  h3, p, .img1d{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi2d {
   grid-area: publi2d;
+  h3, p, .img2d{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi3d {
   grid-area: publi3d;
+  h3, p, .img3d{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi4d {
   grid-area: publi4d;
+  h3, p, .img4d{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi5d {
   grid-area: publi5d;
+  h3, p, .img5d{
+    text-align: center;
+    padding: 5px;
+  }
 }
 .publi6d {
   grid-area: publi6d;
+  h3, p, .img6d{
+    text-align: center;
+    padding: 5px;
+  }
 }
+
+.publi7d {
+  grid-area: publi7d;
+  h3, p, .img7d{
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.publi8d {
+  grid-area: publi8d;
+  h3, p, .img8d{
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.publi9d {
+  grid-area: publi9d;
+  h3, p, .img9d{
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.publi10d {
+  grid-area: publi10d;
+  h3, p, .img10d{
+    text-align: center;
+    padding: 5px;
+  }
+}
+
 footer {
   background-color: $colordefondo;
   font-family: "Roboto", sans-serif;
