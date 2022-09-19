@@ -20,6 +20,8 @@ header {
   header form {
     padding: 5px;
     flex: 1; }
+  header h1 {
+    font-style: italic; }
 
 .head1 {
   display: flex;
