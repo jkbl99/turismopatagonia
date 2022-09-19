@@ -22,6 +22,8 @@ header {
     flex: 1; }
   header h1 {
     font-style: italic; }
+  header img {
+    border-radius: 70%; }
 
 .head1 {
   display: flex;
@@ -85,12 +87,16 @@ main {
   .publi1 h3, .publi1 p, .publi1 .img1 {
     text-align: center;
     padding: 5px; }
+  .publi1 img {
+    border-radius: 10px; }
 
 .publi2 {
   grid-area: publi2; }
   .publi2 h3, .publi2 p, .publi2 .img2 {
     text-align: center;
     padding: 5px; }
+  .publi2 img {
+    border-radius: 10px; }
 
 .publisd {
   display: grid;
@@ -110,60 +116,80 @@ main {
   .publi1d h3, .publi1d p, .publi1d .img1d {
     text-align: center;
     padding: 5px; }
+  .publi1d img {
+    border-radius: 10px; }
 
 .publi2d {
   grid-area: publi2d; }
   .publi2d h3, .publi2d p, .publi2d .img2d {
     text-align: center;
     padding: 5px; }
+  .publi2d img {
+    border-radius: 10px; }
 
 .publi3d {
   grid-area: publi3d; }
   .publi3d h3, .publi3d p, .publi3d .img3d {
     text-align: center;
     padding: 5px; }
+  .publi3d img {
+    border-radius: 10px; }
 
 .publi4d {
   grid-area: publi4d; }
   .publi4d h3, .publi4d p, .publi4d .img4d {
     text-align: center;
     padding: 5px; }
+  .publi4d img {
+    border-radius: 10px; }
 
 .publi5d {
   grid-area: publi5d; }
   .publi5d h3, .publi5d p, .publi5d .img5d {
     text-align: center;
     padding: 5px; }
+  .publi5d img {
+    border-radius: 10px; }
 
 .publi6d {
   grid-area: publi6d; }
   .publi6d h3, .publi6d p, .publi6d .img6d {
     text-align: center;
     padding: 5px; }
+  .publi6d img {
+    border-radius: 10px; }
 
 .publi7d {
   grid-area: publi7d; }
   .publi7d h3, .publi7d p, .publi7d .img7d {
     text-align: center;
     padding: 5px; }
+  .publi7d img {
+    border-radius: 10px; }
 
 .publi8d {
   grid-area: publi8d; }
   .publi8d h3, .publi8d p, .publi8d .img8d {
     text-align: center;
     padding: 5px; }
+  .publi8d img {
+    border-radius: 10px; }
 
 .publi9d {
   grid-area: publi9d; }
   .publi9d h3, .publi9d p, .publi9d .img9d {
     text-align: center;
     padding: 5px; }
+  .publi9d img {
+    border-radius: 10px; }
 
 .publi10d {
   grid-area: publi10d; }
   .publi10d h3, .publi10d p, .publi10d .img10d {
     text-align: center;
     padding: 5px; }
+  .publi10d img {
+    border-radius: 10px; }
 
 footer {
   background-image: linear-gradient(to left, #22c1c3 0%, #fdbb2d 100%);
