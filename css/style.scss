@@ -1,4 +1,4 @@
-$colordefondo: burlywood;
+$colordefondo: rgb(224, 175, 110);
 @mixin reseteo {
   padding: 0;
   margin: 0;
@@ -202,8 +202,7 @@ main {
 }
 
 footer {
-  background-color: $colordefondo;
-  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to left, #22c1c3 0%, #fdbb2d 100%);
   padding: 10px;
   small {
     display: flex;
@@ -293,4 +292,11 @@ footer {
 .contactt {
   list-style: none;
   width: 50%;
+}
+
+.noso{
+  display: flex;
+  p{
+    align-self: center;
+  }
 }

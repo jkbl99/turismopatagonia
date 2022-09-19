@@ -15,7 +15,7 @@ ul {
   box-sizing: border-box; }
 
 header {
-  background-color: burlywood;
+  background-color: #e0af6e;
   padding: 10px; }
   header form {
     padding: 5px;
@@ -164,8 +164,7 @@ main {
     padding: 5px; }
 
 footer {
-  background-color: burlywood;
-  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to left, #22c1c3 0%, #fdbb2d 100%);
   padding: 10px; }
   footer small {
     display: flex;
@@ -245,3 +244,8 @@ footer {
 .contactt {
   list-style: none;
   width: 50%; }
+
+.noso {
+  display: flex; }
+  .noso p {
+    align-self: center; }
